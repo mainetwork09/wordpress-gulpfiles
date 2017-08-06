@@ -1,10 +1,11 @@
 var gulp        = require('gulp');
 var sass        = require('gulp-sass');
 var livereload = require('gulp-livereload');
-var wp_base_dir      = './wp_packerman';
-var livereload_host = 'mai-local.local';
-var scss_path = wp_base_dir + '/wp-content/themes/packerman/scss/*.scss';
-var scss_output_path = wp_base_dir + '/wp-content/themes/packerman/dist/css';
+
+var wp_base_dir      = './wp_packerman'; // your Wordpress base directory
+var livereload_host = 'localhost'; // host for livereload listening
+var scss_path = wp_base_dir + '/wp-content/themes/packerman/scss/*.scss'; // SCSS file
+var scss_output_path = wp_base_dir + '/wp-content/themes/packerman/dist/css';// SCSS output file
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
