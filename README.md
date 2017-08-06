@@ -16,6 +16,7 @@ So you must enqueue http://localhost:7000/livereload.js in your Wordpress theme 
 
 ```
 function my_scripts() {
+wp_enqueue_style( 'my-style', get_template_directory_uri(). '/dist/css/style.css',array(),'1.0.0','' );
 ....
 wp_enqueue_script( 'livereload', 'http://localhost:7000/livereload.js', array(), true );
 ....
