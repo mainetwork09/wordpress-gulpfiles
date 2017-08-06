@@ -1,5 +1,8 @@
 # wordpress-gulpfiles
 
+My gulptasks just run Livereload and complie SCSS
+if you are expert please pass this LOL
+
 First, have to install following packages
 ```
 npm install gulp gulp-sass gulp-livereload
