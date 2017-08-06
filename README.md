@@ -1,6 +1,6 @@
 # wordpress-gulpfiles
 
-My gulptasks just run Livereload and complie SCSS
+My gulptasks just run Livereload and complie SCSS.
 if you are expert please pass this LOL
 
 First, have to install following packages
