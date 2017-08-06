@@ -1,5 +1,13 @@
 # wordpress-gulpfiles
 
+Following my gulpfile Livereload listening on 
+
+```
+http://localhost:7000
+```
+
+So you must enqueue http://localhost:7000/livereload.js in your Wordpress theme functions.php
+
 Enqueue script in functions.php (Wordpress theme folder)
 
 ```
