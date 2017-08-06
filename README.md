@@ -1,5 +1,10 @@
 # wordpress-gulpfiles
 
+First, have to install following packages
+```
+npm install gulp gulp-sass gulp-livereload
+```
+
 Following my gulpfile Livereload listening on 
 
 ```
